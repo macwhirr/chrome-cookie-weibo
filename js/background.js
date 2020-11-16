@@ -61,7 +61,7 @@ function getWeiboCookie(url,strcookie){
 
      $.ajax({
          type:"POST",
-         url: "http://localhost/xiaohongshu/weibo/weibocookieV2.php",
+         url: "http://localhost/weibo/index.php",
          //contentType: "application/json", //如果提交的是json数据类型，则必须有此参数,表示提交的数据类型
          //dataType: "json",//表示返回值类型，不必须
          data: {"url": url ,"str":strcookie },
